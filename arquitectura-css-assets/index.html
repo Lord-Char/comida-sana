@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Fruta & Fruto</title>
+        <link href="./assets/css/reset.css" rel="stylesheet" />
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link href="./assets/css/header/header.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-lista.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-imagen.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-titulo.css" rel="stylesheet" />
+        <link href="./assets/css/sobre/sobre.css" rel="stylesheet" />
+        <link href="./assets/css/sobre/sobre-titulo.css" rel="stylesheet" />
+        <link href="./assets/css/sobre/sobre-descripcion.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header class="header">
+            <img class="logo" src="./assets/img/logo.jpg" alt="logo">
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu-link" href="#">Inicio</a></li>
+                    <li class="menu__item"><a class="menu-link" href="#">Recetas</a></li>
+                    <li class="menu__item"><a class="menu-link" href="#">Quienes somos</a></li>
+                    <li class="menu__item"><a class="menu-link" href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+<!--BEM = Block Element Modifier                         -->
+<!--Ayuda a construir e identificar las clases en bloque.--> 
+<!--Se puede hacer de las siguientes formas:             -->
+<!-- # bloque                                            -->
+<!-- # bloque__elemento                                  -->
+<!-- # bloque--elemento                                  -->
+<!-- # bloque__elemento--modificador                     -->
+        <section class="banner">
+            <img class="banner__imagen" src="./assets/img/banner.jpg" alt="">
+            <h2 class="banner__titulo">Reaproveche mejor los alimentos</h2>
+        </section>
+        <section class="sobre">
+            <h2 class="sobre__titulo">Recetas para economizar y ganar salud</h2>
+            <p class="sobre__descripcion">Nuestras recetas te ayudan a aprovechar mejor los alimentos, economizar, ganar tiempo y practicidad</p>
+        </section>
+        <section class="recetas">
+            <div class="receta">
+                <img alt="Tigela de abacate" class="receta__imagen" src="./assets/img/recetas/bowl-de-aguacate.jpg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Bowl de aguacate</h4>
+                    <p class="receta__descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="Ensalada de kiwi" class="receta__imagen" src="./assets/img/recetas/ensalada-de-kiwi.jpg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Ensalada de kiwi</h4>
+                    <p class="receta__descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="Mix de vegetales" class="receta__imagen" src="./assets/img/recetas/mix-de-vegetales.jpg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Mix de vegetales</h4>
+                    <p class="receta__descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="Pimentones a la Juliana" class="receta__imagen" src="./assets/img/recetas/pimentones-a-la-juliana.jpg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Pimentones a la Juliana</h4>
+                    <p class="receta__descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="Plato oriental" class="receta__imagen" src="./assets/img/recetas/plato-oriental.jpg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Plato oriental</h4>
+                    <p class="receta__descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="Remolachas horneadas" class="receta__imagen" src="./assets/img/recetas/remolachas-horneadas.jpg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Remolachas horneadas</h4>
+                    <p class="receta__descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+    </section>
+    </body>
+</html>
